@@ -1,7 +1,7 @@
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace CodeName.Core.UserInterface.Styling
+namespace CodeName.Styling
 {
     public class ColorScheme : SerializedScriptableObject
     {

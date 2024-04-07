@@ -1,10 +1,10 @@
 ﻿using System;
-using CodeName.Core.UserInterface.Styling.MatchConditions;
+using CodeName.Styling.MatchConditions;
 using JetBrains.Annotations;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace CodeName.Core.UserInterface.Styling
+namespace CodeName.Styling
 {
     [Serializable]
     public class StyleRuleSelector<T>

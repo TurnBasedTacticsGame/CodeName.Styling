@@ -1,10 +1,10 @@
 using System;
-using CodeName.Core.UserInterface.Styling.Attributes;
+using CodeName.Styling.Attributes;
 using JetBrains.Annotations;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace CodeName.Core.UserInterface.Styling.MatchConditions
+namespace CodeName.Styling.MatchConditions
 {
     [InlineProperty]
     [Serializable]

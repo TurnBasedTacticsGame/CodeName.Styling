@@ -1,4 +1,4 @@
-namespace CodeName.Core.UserInterface.Styling
+namespace CodeName.Styling
 {
     public interface IMatchCondition
     {

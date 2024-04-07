@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace CodeName.Core.UserInterface.Styling.MatchConditions
+namespace CodeName.Styling.MatchConditions
 {
     [Serializable]
     public class CompositeMatchCondition : IMatchCondition

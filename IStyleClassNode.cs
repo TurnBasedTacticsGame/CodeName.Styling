@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CodeName.Core.UserInterface.Styling
+namespace CodeName.Styling
 {
     public interface IStyleClassNode
     {

@@ -1,7 +1,8 @@
+using CodeName.Core.UserInterface;
 using CodeName.Core.UserInterface.Capabilities;
 using CodeName.Core.UserInterface.Formatting;
 
-namespace CodeName.Core.UserInterface.Styling
+namespace CodeName.Styling
 {
     public static class StyleClasses
     {

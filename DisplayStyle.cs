@@ -3,7 +3,7 @@ using System.Linq;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace CodeName.Core.UserInterface.Styling
+namespace CodeName.Styling
 {
     public class DisplayStyle : MonoBehaviour, ISerializationCallbackReceiver, IStyleClassNode
     {

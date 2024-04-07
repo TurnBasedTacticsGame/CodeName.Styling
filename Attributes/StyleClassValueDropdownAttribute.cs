@@ -1,6 +1,6 @@
 using System;
 
-namespace CodeName.Core.UserInterface.Styling.Attributes
+namespace CodeName.Styling.Attributes
 {
     [AttributeUsage(AttributeTargets.All)]
     public class StyleClassValueDropdownAttribute : Attribute {}

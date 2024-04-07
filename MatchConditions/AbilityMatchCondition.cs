@@ -1,9 +1,9 @@
 ﻿using System;
-using CodeName.Core.UserInterface.Styling.Attributes;
+using CodeName.Styling.Attributes;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace CodeName.Core.UserInterface.Styling.MatchConditions
+namespace CodeName.Styling.MatchConditions
 {
     [Obsolete("Use ParentSelectorMatchCondition instead")]
     [Serializable]

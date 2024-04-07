@@ -8,7 +8,7 @@ using Sirenix.OdinInspector.Editor;
 using Sirenix.Utilities;
 using Object = UnityEngine.Object;
 
-namespace CodeName.Core.UserInterface.Styling.Attributes
+namespace CodeName.Styling.Attributes
 {
     public class StyleClassValueDropdownAttributeProcessor : OdinAttributeProcessor
     {

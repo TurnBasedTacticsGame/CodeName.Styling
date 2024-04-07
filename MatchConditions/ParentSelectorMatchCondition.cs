@@ -3,7 +3,7 @@ using Plugins.OdinInspector.Addons;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace CodeName.Core.UserInterface.Styling.MatchConditions
+namespace CodeName.Styling.MatchConditions
 {
     [Serializable]
     public class ParentSelectorMatchCondition : IMatchCondition

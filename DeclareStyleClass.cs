@@ -1,6 +1,6 @@
 using System;
 
-namespace CodeName.Core.UserInterface.Styling
+namespace CodeName.Styling
 {
     /// <summary>
     /// Allows the style class declaration to be displayed in the Unity Editor as a dropdown when creating
