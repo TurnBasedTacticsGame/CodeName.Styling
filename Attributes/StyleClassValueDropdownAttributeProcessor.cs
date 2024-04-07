@@ -24,6 +24,7 @@ namespace CodeName.Styling.Attributes
                 AppendNextDrawer = true,
                 NumberOfItemsBeforeEnablingSearch = 0,
                 DropdownWidth = 200,
+                DisableListAddButtonBehaviour = true,
             });
         }
 

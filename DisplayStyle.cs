@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using CodeName.Styling.Attributes;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -17,6 +18,7 @@ namespace CodeName.Styling
         [SerializeField] private List<string> serializedSelfClasses = new();
 
         [ShowInInspector]
+        [StyleClassValueDropdown]
         private readonly HashSet<string> selfClasses = new();
 
         public DisplayStyle Parent => parent;
