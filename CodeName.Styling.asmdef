@@ -2,7 +2,7 @@
     "name": "CodeName.Styling",
     "rootNamespace": "",
     "references": [
-        "OdinInspector.Addons"
+        "Exanite.Core"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
