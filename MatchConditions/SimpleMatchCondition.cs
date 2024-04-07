@@ -19,17 +19,17 @@ namespace CodeName.Styling.MatchConditions
             None = 0,
 
             /// <summary>
-            ///     Class must exist on self.
+            /// Class must exist on self.
             /// </summary>
             Self = 1 << 0,
 
             /// <summary>
-            ///     Class must exist on parent.
+            /// Class must exist on parent.
             /// </summary>
             Parent = 1 << 1,
 
             /// <summary>
-            ///     Class must exist on child.
+            /// Class must exist on child.
             /// </summary>
             Child = 1 << 2,
         }
