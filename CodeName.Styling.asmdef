@@ -2,14 +2,17 @@
     "name": "CodeName.Styling",
     "rootNamespace": "",
     "references": [
-
+        "OdinInspector.Addons"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-
+        "Sirenix.OdinInspector.Attributes.dll",
+        "Sirenix.OdinInspector.Editor.dll",
+        "Sirenix.Utilities.Editor.dll",
+        "Sirenix.Utilities.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],
