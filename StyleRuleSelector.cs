@@ -11,12 +11,10 @@ namespace CodeName.Styling
     {
         private const int LabelWidth = 45;
 
-        [HorizontalGroup]
         [LabelWidth(LabelWidth)]
         [SerializeField] private T value;
 
         [UsedImplicitly]
-        [HorizontalGroup(0, 4)]
         [LabelWidth(LabelWidth)]
         [Tooltip("Notes and comments about how this selector is used.")]
         [SerializeField] private string notes;
