@@ -9,7 +9,7 @@ namespace CodeName.Styling
     /// Must be added to a static getter property.
     /// <example>
     /// <code>
-    /// [DeclareStyleClass] public static string StyleClass { get; } = "StyleClass"
+    /// [DeclareStyleClass] public static string StyleClass { get; } = nameof(StyleClass)
     /// </code>
     /// </example>
     /// </summary>
