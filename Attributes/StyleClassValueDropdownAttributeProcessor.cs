@@ -37,7 +37,7 @@ namespace CodeName.Styling.Attributes
                 .SelectMany(s => s.SelfClasses));
 
             // Get classes from DeclareStyleClassAttribute
-            results.AddRange(AssemblyUtilities.GetTypes(AssemblyTypeFlags.CustomTypes)
+            results.AddRange(AssemblyUtilities.GetTypes(~(AssemblyCategory.UnityEngine | AssemblyCategory.DotNetRuntime))
                 .SelectMany(t => t.GetProperties(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic))
                 .Where(p => p.PropertyType == typeof(string) && p.GetAttribute<DeclareStyleClassAttribute>() != null)
                 .Select(p => (string)p.GetValue(null)));
